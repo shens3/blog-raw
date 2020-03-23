@@ -102,4 +102,4 @@ theme: july
 deploy:
   type: git
   repo: https://github.com/shens3/blog.git
-  branch: gp-pages
+  branch: gh-pages
