@@ -42,7 +42,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -66,6 +66,7 @@ index_generator:
 default_category: uncategorized
 category_map:
   其他: others
+  网络协议: network-protocol
 tag_map:
 
 # Metadata elements
