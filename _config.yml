@@ -68,6 +68,7 @@ category_map:
   其他: others
   网络协议: network-protocol
 tag_map:
+  编码: encoding
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
