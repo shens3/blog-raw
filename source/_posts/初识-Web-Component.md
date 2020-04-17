@@ -237,6 +237,10 @@ class MessageBox extends HTMLElement {
 ## Web Component 不是框架
 Web Component 是浏览器提供的一套原生接口，用来封装在页面中可复用模块代码，并且提供了封闭的作用域。但对于构建一个复杂的 Web 应用，只实现组件是不够的，所以可以结合现在的一些流行框架使用，比如 [React](https://zh-hans.reactjs.org/docs/web-components.html)、Vue。使用 Web Component 的好处是它对任何框架都可以兼容，因为它实际上就是原生的 DOM 元素。但是流行框架本身也提供了实现组件的方式，还能方便的处理数据渲染，想想似乎也没有必要再使用 Web Component。但是一些大型网站都已经在使用 Web Component 了，比如 YouTube、Google等。或许这确实能解决一个通用组件库需要用多种种技术框架来实现相同的逻辑的痛。
 
+
+## 例子
+为了熟悉接口简单写了个 message 组件，有兴趣可以康康<a href="https://shens3.github.io/demos/web-component/message-box" target="_black">在线 Demo</a>。
+
 ## 参考
 - [Shadow DOM v1：独立的网络组件](https://developers.google.com/web/fundamentals/web-components/shadowdom)
 - [自定义元素 v1：可重用网络组件](https://developers.google.com/web/fundamentals/web-components/customelements)
